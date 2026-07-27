@@ -6,6 +6,9 @@
 > **Author:** Meridian Lee (`pekokids77`)  
 > **License:** MIT License / CC-BY-4.0
 
+# 🌀 SSCM (Spin Sphere Cognitive Model v2.2.1)
+> *"Debugging is not about chasing bugs; it's about building completeness."*  
+> —— **Meridian Lee **, *Derived from SSCM Topological Dynamics*
 ---
 
 ## Abstract (摘要)
