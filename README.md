@@ -8,7 +8,7 @@
 
 # 🌀 SSCM (Spin Sphere Cognitive Model v2.2.1)
 > *"Debugging is not about chasing bugs; it's about building completeness."*  
-> —— **Meridian Lee **, *Derived from SSCM Topological Dynamics*
+> —— **Meridian Lee **,  *Derived from SSCM Topological Dynamics*
 ---
 
 ## Abstract (摘要)
