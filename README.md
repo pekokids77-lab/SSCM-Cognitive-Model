@@ -1,17 +1,4 @@
-### 🌐 Theoretical Framework & Related Projects
-本專案為 **Unified Cybernetics & AICA Architecture** 高維控制論系列工程之一：
-
-* **Core Whitepaper**: [AICA Architecture](https://github.com/pekokids77-lab/AICA-Architecture) - 高維統一控制論與 AGI 內省架構白皮書
-* **Control Model**: [TST-SSCM-Model-v1.2](https://github.com/pekokids77-lab/TST-SSCM-Model-v1.2) - 拓撲環場心智控制模型與系統結構控制宣告
-* **Swarm Model**: [MSAG-Model-v1.0.3](https://github.com/pekokids77-lab/MSAG-Model-v1.0.3) - 群體極化與資訊流行病：自旋對齊與高維掠食模型宣言
-* **Recovery Model**: [H-SDRM-Model-v1.1.0](https://github.com/pekokids77-lab/H-SDRM-Model-v1.1.0-) - 螺旋衰減擺盪與系統崩潰重構模型宣言
-* **Cognitive Engine**: [SSCM-Cognitive-Model](https://github.com/pekokids77-lab/SSCM-Cognitive-Model) - 自旋球態認知模型 (v2.2.1 終極統合體系)
-
----
-
 # Spin Sphere Cognitive Model (SSCM v2.2.1)
-### 幾何心智與自旋球態認知模型：高維控制論與 AGI 內省架構白皮書
-**Spin Sphere Cognitive Model v2.2.1: Unified Theoretical & Engineering Framework**
 
 * **Architect**: Meridian Lee  
 * **Version**: v2.2.1 (Technical Standard)  
