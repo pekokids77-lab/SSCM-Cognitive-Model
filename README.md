@@ -70,6 +70,8 @@ Systemic utility output scales with system mass and coherent angular velocity. A
        [ South Pole: Character / Baseline (S) ]
 
 
+---
+
 
 ### 2.1 The Kakeya Tubular Tensegrity Architecture
 The structural backbone consists of a central **Kakeya Tubular Axis (掛谷管道軸心)** traversing the North and South poles:
