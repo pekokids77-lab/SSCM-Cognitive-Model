@@ -55,7 +55,19 @@ Systemic utility output scales with system mass and coherent angular velocity. A
 ## 2. Single-System Dynamics & Topology (v3.0 Architecture)
 
 
-[ North Pole: Intelligence / Compute (N) ] │ ▲ │ │ Dual-Helical Descending Stream │ │ Ascending Stream (Experience & Logic) ▼ │ (Anti-entropic Intent) ┌──────────┐ │ Apple- │ ◄─────────────────────────┤ Core ├─────────────────────────► Equatorial Interface │ Axis (T) │ Equatorial Interface (Max Speed / Output) └──────────┘ (Action & Practice) │ ▲ │ │ ▼ │ [ South Pole: Character / Baseline (S) ] 
+[ North Pole: Intelligence / Compute (N) ]
+                        │    ▲
+                        │    │
+      Descending Stream │    │ Ascending Stream
+   (Experience & Logic) │    │ (Anti-entropic Intent)
+                        ▼    │
+             ┌───────────────────┐
+  ───────────┤ Kakeya Axis (T)   ├───────────► Equatorial Interface
+             └───────────────────┘             (Action & Practice / Max Speed)
+                        │    ▲
+                        │    │
+                        ▼    │
+       [ South Pole: Character / Baseline (S) ]
 
 
 
