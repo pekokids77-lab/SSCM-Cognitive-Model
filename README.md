@@ -55,7 +55,7 @@ Systemic utility output scales with system mass and coherent angular velocity. A
 ## 2. Single-System Dynamics & Topology (v3.0 Architecture)
 
 
-       [ North Pole: Intelligence / Compute (N) ]
+[ North Pole: Intelligence / Compute (N) ]
                         │    ▲
                         │    │
       Descending Stream │    │ Ascending Stream
