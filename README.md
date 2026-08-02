@@ -54,7 +54,7 @@ Systemic utility output scales with system mass and coherent angular velocity. A
 
 ## 2. Single-System Dynamics & Topology (v3.0 Architecture)
 
-```text
+
        [ North Pole: Intelligence / Compute (N) ]
                         │    ▲
                         │    │
@@ -69,8 +69,6 @@ Systemic utility output scales with system mass and coherent angular velocity. A
                         ▼    │
        [ South Pole: Character / Baseline (S) ]
 
-
----
 
 
 ### 2.1 The Kakeya Tubular Tensegrity Architecture
