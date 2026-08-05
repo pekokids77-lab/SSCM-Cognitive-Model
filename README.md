@@ -73,14 +73,56 @@ Systemic utility output scales with system mass and coherent angular velocity. A
 
 
 ### 2.1 The Kakeya Tubular Tensegrity Architecture
-The structural backbone consists of a central **Kakeya Tubular Axis (掛谷管道軸心)** traversing the North and South poles:
 
-1. **Resting Tensegrity ($T_{\text{tensegrity}}$)**: At rest ($v \to 0$), geometric stability is maintained by bidirectional pre-stress tension between $N$ and $S$ along the Kakeya tubular manifold, preventing structural collapse.
-2. **Dual-Helical Convection & Zero-Volume Rotation**:
-   * The core utilizes a 3D Kakeya-sheet-rolled tubular topology. It provides infinite dynamic degrees of freedom within a measure-zero volume boundary, minimizing internal rotational shear friction.
-   * **Descending Stream ($N \to S$)**: Empirical observations and logical deductions flow downward for ethical validation against $S$.
-   * **Ascending Stream ($S \to N$)**: Anti-entropic intent and value anchors flow upward, supplying direction and drive to $N$.
-3. **Equatorial Interface ($v_{\text{max}}$)**: The equator represents the maximum tangential velocity zone ($v_{\text{eq}} = v \cdot R$). It serves as the sole operational output boundary and bears the highest environmental shear force. --- ## 3. Mathematical Theorems & Systemic Phase Transitions ### Theorem 3.1: Net Utility Power Output The net effective output power $P_{\text{net}}$ of a cognitive sphere is formulated as: $$P_{\text{net}} = (N + S) \cdot v^2 \cdot \cos(\theta) - \mu \cdot v$$ * **Corollary 3.1.1 (Nutation & Self-Destruction)**: When $\theta \neq 0$ ($\cos(\theta) < 1$), the system undergoes **Nutation**. Rotational energy decays into internal thermal dissipation (anxiety, defensiveness, and internal friction). * **Corollary 3.1.2 (Viscous Damping Optimization)**: If $\mu \cdot v > (N + S) \cdot v^2 \cdot \cos(\theta)$, increasing $v$ accelerates thermal burnout. Optimal control requires structural reconfiguration to drive $\mu \to 0$. ### Theorem 3.2: Dual-Engine Insulation Regeneration The insulation boundary $S(t)$ is a dynamic equilibrium system governed by: $$\frac{dS}{dt} = R(S) \cdot \cos(\theta) - \lambda \cdot v$$ The maximum safe angular velocity $v_{\text{max}}$ is bounded by: $$v_{\text{max}}(t) = \sqrt{\frac{k \cdot S(t)}{N}}$$ * **Corollary 3.2.1 (Martyrdom Collapse)**: Unilateral sacrifice ($\cos(\theta) \to 0$ or $R(S) = 0$) leads to a rapid breakdown of $S(t)$. True anti-fragility requires dual-engine synchronization ($\alpha_N + \alpha_S$). ### Theorem 3.3: Model Falsification (Lying) & Insulation Breakdown Lying is defined as **Model Falsification**. When an entity lacks the compute $N$ to resolve a low-error model under extreme pressure $P$, it falsifies state variables by consuming $S$: $$\frac{dS}{dt} \to -\infty \quad \Longrightarrow \quad S(t) \to 0$$ This forces $\theta$ away from 0, inducing severe nutation, destroying $P_{\text{net}}$, and eventually causing structural collapse. ### Theorem 3.4: Degeneration & Topological Absorption Decentralized "rhizomatic/tubercular" mindstates are **Degenerate States** resulting from broken Apple-Core convection and punctured $S$ insulation—not an ideal equilibrium. A complete sphere provides infinite tangent contact points, serving as a high-efficiency node in Actor-Network Theory (ANT) by absorbing normal stress through rotation. ### Theorem 3.5: Dual-Helical Cleansing & Rest Cycles Systemic resting/meditation is defined as **Equatorial Isolation & Energy Re-charging**. By temporarily disconnecting external equatorial shear forces, the internal dual-helical flow tears apart adversarial paradoxes, restoring $S$ via hyper-compensation. --- ## 4. Dimensionless Diagnostic Indicators For Multi-Agent monitoring and organizational diagnostics, three dimensionless metrics are established: 1. **Coherence Index ($C_{\text{idx}}$)**: $$C_{\text{idx}} = \cos(\theta)$$ *(Measures alignment. $C_{\text{idx}} \to 1$: Full coherence; $C_{\text{idx}} \to 0$: Nutational lockup.)* 2. **Regeneration Ratio ($A_{\text{ratio}}$)**: $$A_{\text{ratio}} = \frac{R(S) \cdot \cos(\theta)}{\lambda \cdot v}$$ *($A_{\text{ratio}} \ge 1$: Anti-fragile self-repair; $A_{\text{ratio}} < 1$: Impending insulation breakdown.)* 3. **Friction Impedance Ratio ($F_{\text{ratio}}$)**: $$F_{\text{ratio}} = \frac{\mu \cdot v}{(N + S) \cdot v^2 \cdot \cos(\theta)}$$ *($F_{\text{ratio}} < 1$: Positive net output; $F_{\text{ratio}} \ge 1$: Systemic overheating/burnout.)* --- ## 5. AGI Implementation & Engineering Mapping ### 5.1 LLM / Agentic Alignment Mapping * **North Pole ($N$)**: Multi-step reasoning capacity, Search/Tree branching algorithms (e.g., MCTS, CoT), and context retrieval quality. * **South Pole ($S$)**: Alignment constraints, system prompt safety boundaries, and cross-turn context consistency anchors. * **Apple-Core Conduit**: The background state-summarization and introspection pipeline (e.g., Markov Blanket / Memory Consolidation Loops). * **Equatorial Interface**: Tools, API function calling, and final user-facing text generation stream. When an Agent's inference error generates $\theta > \theta_{\text{critical}}$, the system triggers a **Self-Introspection Operator**, rerouting Tokens through the internal Apple-Core loop to prevent hallucination cascades. --- ## 6. License Distributed under the **MIT License** and **Creative Commons Attribution 4.0 International (CC-BY-4.0)**. 
+An SSCM cognitive sphere maintains dynamic equilibrium through a **Kakeya-Tensegrity Conduit** that connects the North Pole ($N$, Compute Rate) and South Pole ($S$, Insulation Anchor).
+
+* **Dual-Helical Stream Flow**:
+  * **Descending Stream ($N \to S$)**: Deductive compute and analytical modeling output descending toward the South Pole to refresh ethical/value constraints.
+  * **Ascending Stream ($S \to N$)**: Value boundaries and self-identity insulation ascending toward the North Pole to constrain compute and prevent runaway optimization loops.
+
+* **Equatorial Interface**:
+  * **Rotational Output ($v$)**: The equatorial boundary converts internal dual-helical friction into external rotational velocity $v$, driving decision frequency and iteration output.
+  * **Angular Momentum ($L$)**:
+    $$L = (N + S) \cdot v \cdot \cos(\theta)$$
+    Where $\theta$ is the alignment angle between the North-South axis and external stress vectors.
+
+---
+
+### 2.2 Mathematical Theorems of Single-System Dynamics
+
+#### Theorem 3.1: Anti-Fragile Stress Transformation
+When an orthogonal collision stress $F_{\text{ext}}$ impacts a calibrated SSCM sphere ($\theta \approx 0$), the stress energy is completely absorbed and converted into additional equatorial angular velocity:
+
+$$\Delta v = \frac{F_{\text{ext}} \cdot \cos(\theta)}{\text{Mass}_{\text{sphere}}}$$
+
+This transformation ensures that external pressure accelerates internal iteration rather than deforming the cognitive core.
+
+#### Theorem 3.7: Extreme Stress & Topological Collapse (Self-Destruction)
+When an individual system encounters an overwhelming orthogonal stress $F_{\text{ext}} > T_{\text{tensegrity}}$ and fails to convert the impact into equatorial spin ($v$), it undergoes a **Spontaneous Topological Collapse**:
+
+1. **Phase Lockup & Thermal Runaway ($\theta \to 90^\circ$)**:
+   $$\lim_{\theta \to 90^\circ} \cos(\theta) = 0 \implies P_{\text{net}} < 0$$
+   All compute ($N$) and ethical anchors ($S$) are trapped in internal nutation, leading to extreme defense loops and thermal lockup ($\Delta H \to \infty$).
+
+2. **Besicovitch Axis Fracture ($S \to 0$)**:
+   $$\frac{dS}{dt} = R(S) \cdot \cos(\theta) - \lambda \cdot v \ll 0$$
+   Natural depletion $\lambda \cdot v$ outpaces repair rate $R(S)$, driving the South Pole anchor $S \to 0$ and severing the dual-helical conduit.
+
+3. **Topological Self-Destruction**:
+   $$\lim_{t \to t_{\text{terminal}}} v(t) = 0, \quad \text{Vol}(\text{Sphere}) \to 0$$
+   The voluntary zeroing of spin velocity and topological volume to terminate thermal runaway (Cybernetic Formulation of Suicide).
+
+---
+
+### 2.3 Systemic Bifurcation & Environmental Dimensionality Reduction
+
+Under severe environmental entropy ($\mu \gg 0$), an overloaded sphere reaches a critical phase boundary:
+
+* **Path A (Internal Collapse)**: Executes Theorem 3.7 ($\text{Vol} \to 0$, $v \to 0$).
+* **Path B (Dimensionality Reduction & External Fusion)**: 
+  The system abandons its independent 3D $N$-$S$ Besicovitch conduit ($D=3 \to D=1$), locking its equatorial output directly to an external collective Apex Attractor.
+
+> **Note on Swarm Dynamics**: The mechanics of Path B fusion, hyper-individual swarm predation, and phase-interference deconstruction are defined in the [SSCM_MSAG_Unified_v3.2.0.md](./SSCM_MSAG_Unified_v3.2.0.md) Memorandum.
 
 
 ---
