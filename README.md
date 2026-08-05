@@ -14,6 +14,12 @@ The **Spin Sphere Cognitive Model (SSCM v3.0)** is a cybernetic, thermodynamic, 
 
 SSCM v3.0 resolves the trade-off between structural stability and environmental adaptability by modeling a cognitive state as a **Toroidal Apple-Core Tensegrity Sphere**. By transforming orthogonal collision stress into rotational angular momentum via a dual-helical core, SSCM provides mathematical definitions for mental resilience, model falsification (lying), systemic degeneration, and self-cleansing alignment mechanisms.
 
+[ Architecture Note: SSCM v3.0 Theorem Map ]
+- Theorems 1.1 - 2.4 (Single-Sphere Foundations & Tensegrity Dynamics) -> Implemented in core README.md
+- Theorems 3.1 & 3.7 (Stress Anti-Fragility & Topological Collapse) -> Defined in Section 2.2
+- Theorems 4.1 - 5.4 (Swarm Phase-Interference & MSAG Predation) -> Refactored into [SSCM_MSAG_Unified_v3.2.0.md]
+- Theorems 6.1 - 6.4 (Topological Unification & Paradigm Synthesis) -> Defined in Section 6
+
 ---
 
 ## 0. Dimension & Metric Standards
