@@ -3,6 +3,7 @@
 
 **Architect**: Meridian Lee  
 **Version**: v3.0.0 (Technical Standard)  - [SSCM_MSAG_Unified_v3.2.0.md](./SSCM_MSAG_Unified_v3.2.0.md) : Cybernetic Framework Memorandum (Unified Control Theory & Swarm Predation)
+
 **License**: MIT License / Creative Commons CC-BY-4.0  
 
 ---
