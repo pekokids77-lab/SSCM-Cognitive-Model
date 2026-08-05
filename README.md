@@ -124,7 +124,6 @@ Under severe environmental entropy ($\mu \gg 0$), an overloaded sphere reaches a
 
 > **Note on Swarm Dynamics**: The mechanics of Path B fusion, hyper-individual swarm predation, and phase-interference deconstruction are defined in the [SSCM_MSAG_Unified_v3.2.0.md](./SSCM_MSAG_Unified_v3.2.0.md) Memorandum.
 
-
 ---
 
 ## 6. Topological Unification & Paradigm Integration (拓撲幾何統一定理)
