@@ -172,3 +172,10 @@ The ultimate utility of SSCM v3.0 lies in its ability to strip away domain-speci
 
 By evaluating any human, organizational, or artificial system through these spatial invariants, practitioners can diagnose structural failure modes before catastrophic breakdown occurs.
 
+---
+
+**License**
+
+This project is open-sourced under the MIT License. Anyone is free to use, modify, distribute, or commercialize this work, provided that the original author attribution and license terms are retained.
+
+
