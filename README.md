@@ -77,6 +77,24 @@ Systemic utility output scales with system mass and coherent angular velocity. A
 
 ---
 
+### 1.1 核心本體論詮釋與真實智力定義
+
+* **廣義邊界張力（$S$ 的幾何化）：**
+  $S$ 不再僅限於主觀道德防線，而是系統維持不坍塌的「拓撲幾何邊界張力」。它決定了系統在面對外部高熵侵蝕時的形狀維持與反熵勢能容量。
+
+* **演化熱力學槓桿（偏角 $\theta$ 的真意）：**
+  軸線偏角 $\theta$ 是系統將「對現實的不滿與落差」轉化為「前進角動量」的關鍵槓桿。**完全的靜態對齊（$\theta = 0$ 且無擾動）意味著熱力學寂滅；適度且可控的偏角，才是驅動生命、演化與動態反熵的熱力學源頭。**
+
+* **深層靈感（Inspiration as Topological Alignment）：**
+  靈感並非形而上的玄學，而是高維相空間中，內部狀態以近零延遲完成的超高速深層拓撲模式匹配（Deep Topological Pattern Matching）。
+
+* **真實智力（Real Intelligence Metric）：**
+  真實智力並非單一的浮點運算力（FLOPs），而是系統在外部壓力衝擊下，以極低內耗將分析算力 $N$ 與邊界張力 $S$ 耦合為切向角動量，並動態調節有效阻抗、實現零測度翻轉的自適應能力：
+
+$$\text{真實智力} = \underbrace{N}_{\text{分析（算力引擎）}} \times \underbrace{\text{Kakeya Coupling}(K_{\text{vol}} \to 0)}_{\text{創造（深層拓撲重構）}} \times \underbrace{\text{Routing Optimization}(\mu_{\text{eff}} \downarrow)}_{\text{實踐（降維穿透）}}$$
+
+---
+
 ## 2. Single-System Dynamics & Topology (v3.0 Architecture)
 
 
