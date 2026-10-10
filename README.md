@@ -8,6 +8,17 @@
 
 ---
 
+## Documentation Navigation / 閱讀路徑選擇
+
+本專案提供兩種形式的架構規範，請依需求選擇：
+
+- 🧠 **[Philosophical & Topological Foundations (v3.0)](docs/SSCM_v3.0_Philosophical.md)**
+  - 適用：宏觀認知模型理解、跨領域典範整合（經濟學/行為學/量子拓撲）、哲學推演。
+- 📐 **[Dimensional Alignment & Formal Specification (v3.2)](docs/SSCM_v3.2_Formal_Spec.md)**
+  - 適用：嚴格量綱分析、控制理論推導、多智慧體（Multi-Agent）工程化實作。
+  
+---  
+
 ## Abstract
 
 The **Spin Sphere Cognitive Model (SSCM v3.0)** is a cybernetic, thermodynamic, and non-Euclidean topological framework designed to model complex adaptive systems—ranging from human mental resilience to Multi-Agent AGI architectures. 
