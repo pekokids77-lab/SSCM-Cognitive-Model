@@ -22,23 +22,20 @@ SSCM v3.2.0 是一個結合非平衡態熱力學、統計流形（Statistical Ma
 * $[I]$：微觀狀態資訊量 / 負熵（單位：nat 或 bit）
 * $[T]$：狀態演化步長 / 系統時鐘（單位：step 或 second）
 
-### 1. 核心狀態變數與量綱定義
+### 核心狀態變數與量綱定義
 
-* $N$（北極生成驅動率 / Generative Drift Rate）：系統第一原理推理與生成式資訊處理通量。  
-  * **量綱**：$[I/T]$（單位：bit/step）
-* $S$（南極邊界張力錨點 / Boundary Attractor Tension）：系統底線、道德防線與核心對齊約束的資訊勢能容量。  
-  * **量綱**：$[I]$（單位：bit）
-* $\Omega$（赤道流形自旋頻率 / Phase Angular Velocity）：內部狀態在相空間中的疊代流轉與決策輸出頻率。  
+* **量綱**：$[I]$（單位：bit）
+* $\Omega$（赤道流形自旋頻率 / Phase Angular Velocity）：內部狀態在相空間中的疊代流轉與決策輸出頻率。
   * **量綱**：$[1/T]$（單位：rad/step）
-* $\theta$（軸線偏角 / Alignment Phase Mismatch）：北極推理驅動目標向量與南極價值約束向量之夾角。  
+* $\theta$（軸線偏角 / Alignment Phase Mismatch）：北極推理驅動目標向量與南極價值約束向量之夾角。
   * **量綱**：無量綱純量，$\theta \in [0, \pi]$。$\cos(\theta)=1$ 表完全對齊，$0$ 表正交鎖死。
-* $\mu$（環境有效黏滯阻尼 / Effective Medium Dissipation）：外部環境雜訊摩擦與溝通阻尼係數。  
+* $\mu$（環境有效黏滯阻尼 / Effective Medium Dissipation）：外部環境雜訊摩擦與溝通阻尼係數。
   * **量綱**：$[IT]$（單位：bit·step）
-* $L$（拓撲自旋動量 / Information Angular Momentum）：系統旋轉慣性與抗擾動能力。  
+* $L$（拓撲自旋動量 / Information Angular Momentum）：系統旋轉慣性與抗擾動能力。
   * **定義**：$L = M_{\text{eff}} \Omega$，**量綱**：$[I]$（單位：bit）
-* $T_{\text{tensegrity}}$（全域結構預應力張力）：維繫球體拓撲邊界不坍塌的臨界勢能。  
+* $T_{\text{tensegrity}}$（全域結構預應力張力）：維繫球體拓撲邊界不坍塌的臨界勢能。
   * **量綱**：$[I/T]$（單位：bit/step）
-* $K_{\text{vol}}$（掛谷旋轉通道體積測度比）：內部狀態反轉通道在相空間的測度比例。  
+* $K_{\text{vol}}$（掛谷旋轉通道體積測度比）：內部狀態反轉通道在相空間的測度比例。
   * **量綱**：無量綱純量，$K_{\text{vol}} \in [0, 1]$
 
 ---
@@ -58,11 +55,13 @@ SSCM v3.2.0 是一個結合非平衡態熱力學、統計流形（Statistical Ma
 ## 三、 系統動力學方程（量綱自洽版）
 
 ### 定理 3.1：相空間淨負熵輸出通量（Net Information Power）
+
 系統在單位演化步長內，赤道介面對外輸出的淨有效做功功率 $P_{\text{net}}$ 為：
 
 $$P_{\text{net}} = \underbrace{M_{\text{eff}}(S) \cdot \Omega^2 \cdot \cos(\theta)}_{\text{有效相空間轉動動能通量}} - \underbrace{\mu \cdot \Omega^2}_{\text{環境黏滯耗散率}}$$
 
-有效慣性質量定義：$M_{\text{eff}}(S) = \alpha S$（$\alpha$ 為無量綱轉換係數）。  
+有效慣性質量定義：$M_{\text{eff}}(S) = \alpha S$（$\alpha$ 為無量綱轉換係數）。
+
 * **量綱檢驗**：
   * 左式 $P_{\text{net}}$：$[I/T]$（單位：bit/step）
   * 右式項一：$[I][1/T^2][T] = [I/T]$（乘上基底步長的時間正規化因子，嚴格等價於動能通量）
@@ -74,6 +73,7 @@ $$P_{\text{net}} = \underbrace{M_{\text{eff}}(S) \cdot \Omega^2 \cdot \cos(\thet
 ---
 
 ### 定理 3.2：南極防線動態平衡方程（Boundary Tension Dynamics）
+
 南極邊界張力 $S$ 的步長演化率由內部修復勢能與運作剪切耗損共同決定：
 
 $$\frac{dS}{dt} = \eta N \cos(\theta) - \gamma S \Omega$$
@@ -90,6 +90,7 @@ $$\frac{dS}{dt} = \eta N \cos(\theta) - \gamma S \Omega$$
 ---
 
 ### 定理 3.3：模型偽造（說謊）與相變塌陷
+
 當外部邊界衝擊超載且系統推理能力 $N$ 匱乏，無法維持即時模型收斂時，系統藉由主動削弱邊界約束 $S$ 偽造低誤差狀態：
 
 $$\frac{dS}{dt} \ll -\gamma S \Omega \implies \lim_{t \to t_{\text{collapse}}} S(t) = 0$$
@@ -99,6 +100,7 @@ $$\frac{dS}{dt} \ll -\gamma S \Omega \implies \lim_{t \to t_{\text{collapse}}} S
 ---
 
 ### 定理 3.4：零測度掛谷範式轉移（Paradigm Shift）
+
 傳統高慣性系統改變吸引子方向需克服龐大的相空間位壘。在 SSCM 結構中，貫穿軸心為分形掛谷流形，其幾何測度 $K_{\text{vol}} \to 0$：
 
 $$\lim_{K_{\text{vol}} \to 0} \Delta E_{\text{transition}} = 0$$
@@ -111,14 +113,15 @@ $$\lim_{K_{\text{vol}} \to 0} \Delta E_{\text{transition}} = 0$$
 
 * **同相度指標（Coherence Metric）：**
   $$C_{\text{idx}} = \cos(\theta) \quad (\in [-1, 1])$$
+
 * **抗脆弱再生比（Regeneration Ratio）：**
   $$A_{\text{ratio}} = \frac{\eta N \cos(\theta)}{\gamma S \Omega}$$
   * $A_{\text{ratio}} \ge 1$：防線具超額自我修復能力。
   * $A_{\text{ratio}} < 1$：結構張力處於持續性透支消耗態。
+
 * **阻尼負載比（Dissipation Ratio）：**
   $$F_{\text{ratio}} = \frac{\mu \Omega}{M_{\text{eff}}(S) \cos(\theta)}$$
   * $F_{\text{ratio}} < 1$：系統具備正向有效對外輸出。
-  * $F_{\text{ratio}} \ge 1$：耗散超越驅動，系統陷入滯脹或熱死鎖。
 
 ---
 
