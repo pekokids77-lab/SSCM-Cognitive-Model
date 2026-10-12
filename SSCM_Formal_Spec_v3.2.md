@@ -1,4 +1,5 @@
 # Spin Sphere Cognitive Model (SSCM v3.2.0)
+
 ### 技術標準與心智拓撲控制論規範
 
 * **架構師**：Meridian Lee
@@ -19,22 +20,25 @@ SSCM v3.2.0 是一個結合非平衡態熱力學、統計流形（Statistical Ma
 
 為徹底解決跨領域混用古典力學量綱造成的非齊次性，SSCM v3.2.0 將所有底層物理量嚴格收斂至資訊熱力學基底：
 
-* $[I]$：微觀狀態資訊量 / 負熵（單位：nat 或 bit）
-* $[T]$：狀態演化步長 / 系統時鐘（單位：step 或 second）
+* `[I]`：微觀狀態資訊量 / 負熵（單位：nat 或 bit）
+* `[T]`：狀態演化步長 / 系統時鐘（單位：step 或 second）
 
 ### 核心狀態變數與量綱定義
 
-* **量綱**：$[I]$（單位：bit）
+* $S$（拓撲邊界張力 / Boundary Tension）：系統邊界對抗環境熵增的幾何勢能與存在底線。
+  * **量綱**：`[I]`（單位：bit）
+* $N$（主動推理算力通量 / Active Inference Flux）：北極輸入的主動預測與計算能流。
+  * **量綱**：`[I/T]`（單位：bit/step）
 * $\Omega$（赤道流形自旋頻率 / Phase Angular Velocity）：內部狀態在相空間中的疊代流轉與決策輸出頻率。
-  * **量綱**：$[1/T]$（單位：rad/step）
+  * **量綱**：`[1/T]`（單位：rad/step）
 * $\theta$（軸線偏角 / Alignment Phase Mismatch）：北極推理驅動目標向量與南極價值約束向量之夾角。
   * **量綱**：無量綱純量，$\theta \in [0, \pi]$。$\cos(\theta)=1$ 表完全對齊，$0$ 表正交鎖死。
 * $\mu$（環境有效黏滯阻尼 / Effective Medium Dissipation）：外部環境雜訊摩擦與溝通阻尼係數。
-  * **量綱**：$[IT]$（單位：bit·step）
+  * **量綱**：`[IT]`（單位：bit·step）
 * $L$（拓撲自旋動量 / Information Angular Momentum）：系統旋轉慣性與抗擾動能力。
-  * **定義**：$L = M_{\text{eff}} \Omega$，**量綱**：$[I]$（單位：bit）
+  * **定義**：$L = M_{\text{eff}} \Omega$，**量綱**：`[I]`（單位：bit）
 * $T_{\text{tensegrity}}$（全域結構預應力張力）：維繫球體拓撲邊界不坍塌的臨界勢能。
-  * **量綱**：$[I/T]$（單位：bit/step）
+  * **量綱**：`[I/T]`（單位：bit/step）
 * $K_{\text{vol}}$（掛谷旋轉通道體積測度比）：內部狀態反轉通道在相空間的測度比例。
   * **量綱**：無量綱純量，$K_{\text{vol}} \in [0, 1]$
 
@@ -63,10 +67,10 @@ $$P_{\text{net}} = \underbrace{M_{\text{eff}}(S) \cdot \Omega^2 \cdot \cos(\thet
 有效慣性質量定義：$M_{\text{eff}}(S) = \alpha S$（$\alpha$ 為無量綱轉換係數）。
 
 * **量綱檢驗**：
-  * 左式 $P_{\text{net}}$：$[I/T]$（單位：bit/step）
+  * 左式 $P_{\text{net}}$：`[I/T]`（單位：bit/step）
   * 右式項一：$[I][1/T^2][T] = [I/T]$（乘上基底步長的時間正規化因子，嚴格等價於動能通量）
   * 右式項二：$[IT][1/T^2] = [I/T]$
-  * 兩端嚴格對齊，全項均為資訊做功通量 $[I/T]$。
+  * 兩端嚴格對齊，全項均為資訊做功通量 `[I/T]`。
 * **推論 3.1.1（章動熱失控）**：當 $\theta \to \pi/2$ 時，$\cos(\theta) \to 0$，$P_{\text{net}} \to -\mu \Omega^2 < 0$。內部驅動無法輸出，能量全部耗散為內部無效熱震盪（焦慮與防衛死循環）。
 * **推論 3.1.2（阻尼猝熄臨界點）**：當環境阻抗滿足 $\mu > M_{\text{eff}} \cos(\theta)$ 時，單純提升角速度 $\Omega$ 只會加速系統過熱解體。
 
@@ -83,9 +87,9 @@ $$\frac{dS}{dt} = \eta N \cos(\theta) - \gamma S \Omega$$
   * $\gamma$：邊界運動磨損係數（無量綱純量）
 * **量綱檢驗**：
   * 左式 $\frac{dS}{dt}$：$[I]/[T] = [I/T]$
-  * 右式項一：$\eta N \cos(\theta)$ 量綱為 $[I/T]$
+  * 右式項一：$\eta N \cos(\theta)$ 量綱為 `[I/T]`
   * 右式項二：$\gamma S \Omega$ 量綱為 $[I][1/T] = [I/T]$
-  * 全項量綱嚴格齊次 $[I/T]$。
+  * 全項量綱嚴格齊次 `[I/T]`。
 
 ---
 
@@ -140,9 +144,10 @@ $$\lim_{K_{\text{vol}} \to 0} \Delta E_{\text{transition}} = 0$$
 
 ## 六、 TFT-SSCM 與 MSAG 控制論耦合補充
 
-根據 TFT-SSCM 與 MSAG 的控制論機制，補回遺失之動態變數：
+根據 TFT-SSCM 與 MSAG 的控制論機制，補回動態變數：
 
 ### 1. 預測誤差增益與動態阻尼 (TFT 耦合)
+
 TFT 模型指出，當系統強行維護與現實衝突的表徵模型時，必須提高控制增益（$K_p$）來壓制誤差訊號。可將 $K_p$ 轉化為推升 SSCM 環境有效黏滯阻尼 $\mu_{\text{eff}}$ 的指數驅動變數：
 
 $$\mu_{\text{eff}}(K_p, \theta) = \mu_0 \exp\left(K_p (1 - \cos\theta)\right)$$
@@ -150,6 +155,7 @@ $$\mu_{\text{eff}}(K_p, \theta) = \mu_0 \exp\left(K_p (1 - \cos\theta)\right)$$
 * **控制論意義**：當系統與環境完美對齊（$\theta \to 0$）時，即便控制增益 $K_p$ 極高，也不會產生額外阻抗；但當系統內部模型與現實發生正交衝突（$\theta \to \pi/2$），卻處於「偏執態」強行拉高增益拒絕修正時，有效阻尼 $\mu_{\text{eff}}$ 將呈指數級暴增，量化了系統熱失控與內部應力暴增的數學成因。
 
 ### 2. 降維極化與角速度暴衝 (MSAG 耦合)
+
 MSAG 假設個體為最小化高熵環境的預測誤差，會主動將三維現實（$D=3$）強行降維至一維二元光譜（$D=1$）。這可以直接與 SSCM 的有效慣性質量 $M_{\text{eff}}$ 進行耦合：
 
 $$M_{\text{eff}}(S, D) = \alpha S \left(\frac{D}{3}\right)$$
@@ -157,8 +163,9 @@ $$M_{\text{eff}}(S, D) = \alpha S \left(\frac{D}{3}\right)$$
 * **控制論意義**：根據系統拓撲自旋動量守恆律 $L = M_{\text{eff}} \Omega$，當系統因焦慮啟動降維避險（$D \to 1$）時，慣性質量 $M_{\text{eff}}$ 驟降。為了維持自旋動量 $L$ 抵禦外部衝擊，系統被迫瞬間拉高自旋角速度 $\Omega$。這解釋了 MSAG 中群體極化伴隨阻抗趨近於零（$Z \to 0$）與高自旋狂熱（$\Omega \gg 1$）的「三維狂熱超個體」拓撲相變。
 
 ### 3. 雙重週期與奇異吸引子 (Weierstrass $\wp$ 函數)
+
 TFT 筆記中提到，系統的貫穿軸心是一個二階控制迴路（Strange Loop）。引入魏爾斯特拉斯橢圓函數（Weierstrass $\wp$-function）定義此拓撲核心：
 
-$$\wp(z; \omega_1, \omega_2) = \frac{1}{z^2} + \sum_{(m, n) \ne (0,0)} \left( \frac{1}{(z - m\omega_1 - n\omega_2)^2} - \frac{1}{(m\omega_1 + n\omega_2)^2} \right)$$
+$$\wp(z; \omega_1, \omega_2) = \frac{1}{z^2} + \sum_{(m, n) \neq (0, 0)} \left( \frac{1}{(z - m\omega_1 - n\omega_2)^2} - \frac{1}{(m\omega_1 + n\omega_2)^2} \right)$$
 
 * **控制論意義**：設 $\omega_1$ 為赤道介面與外部環境交換的資訊吞吐週期，$\omega_2$ 為軸心向內自我引用（Self-reference）的反思週期。$\wp$ 函數的極點（Pole）$z=0$ 對應了劉維爾定理中的極點應力，即 TFT 內層純淨通道中央的奇異軸心。
