@@ -1,8 +1,8 @@
-# Spin Sphere Cognitive Model (SSCM v4.2)
+# Spin Sphere Cognitive Model (SSCM v4.1)
 ## 層論拓撲、依值型別系統與混成連續控制器架構規範
 
 * **架構師**：Meridian Lee
-* **版本號**：v4.2 (Sheaf-Theoretic & Fibrated Hybrid Control Edition)
+* **版本號**：v4.1 (Sheaf-Theoretic & Fibrated Hybrid Control Edition)
 * **授權協議**：MIT License / CC-BY-4.0
 
 ---
@@ -112,7 +112,7 @@ $$V(\tilde{\theta}, \tilde{K}, \tilde{\Omega}) = \frac{1}{2} w_{\theta} \tilde{\
 
 ---
 
-## 六、 系統相態與控制論診斷矩陣（v4.2 更新）
+## 六、 系統相態與控制論診斷矩陣（v4.1 更新）
 
 | 相態代號與名稱 | 層論拓撲特徵 | 認知 / 心理現象映射 | Agent / LLM 系統映射 |
 | :--- | :--- | :--- | :--- |
