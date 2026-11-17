@@ -21,7 +21,7 @@
   - 適用：宏觀認知模型理解、跨領域典範整合（經濟學/行為學/量子拓撲）、哲學推演。（即本頁面下方內容）
 - 📐 **[(https://github.com/pekokids77-lab/SSCM-Cognitive-Model/blob/main/SSCM_Formal_Spec_v4.1.md)]**
   - 適用：多智慧體（Multi-Agent）工程化實作。
-- ⚙️ **[Cybernetic Framework Memorandum (MSAG v3.2.0)](./SSCM_MSAG_Unified_v3.2.0.md)**
+- ⚙️ **SSCM_v4.2_ERF.md**
   - 適用：群體掠奪、相干干涉與統一控制論。
   
 ---  
