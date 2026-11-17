@@ -15,14 +15,14 @@
 
 ## Documentation Navigation / 閱讀路徑選擇
 
-本專案提供兩種形式的架構規範，請依需求選擇：
+本專案提供三種層級的架構規範，請依需求選擇：
 
-- 🧠 **[Philosophical & Topological Foundations (v3.0)](#abstract)**
+- 🧠 [Philosophical & Topological Foundations (v3.0)](SSCM_MSAG_Unified_v3.2.0.md)
   - 適用：宏觀認知模型理解、跨領域典範整合（經濟學/行為學/量子拓撲）、哲學推演。（即本頁面下方內容）
-- 📐 **[(https://github.com/pekokids77-lab/SSCM-Cognitive-Model/blob/main/SSCM_Formal_Spec_v4.1.md)]**
-  - 適用：嚴格拓樸層論、無因次化混成控制與自動機實作。
-- ⚙️ [SSCM_v4.2_ERF.md](https://github.com/pekokids77-lab/SSCM-Cognitive-Model/blob/main/SSCM_v4.2_ERF.md)
-  - 適用：**外部現實回饋（ERF）校準機制、六維無因次混成動力學、認知病理相態分岔（Phase III / IV）與反脆弱退火驗證。**
+- 📐 [Formal Specification (v4.1)](SSCM_Formal_Spec_v4.1.md)
+  - 適用：嚴格拓樸層論形式化、無因次化混成控制與自動機規格。
+- ⚙️ [External Reality Feedback & Dynamics (v4.2-ERF)](SSCM_v4.2_ERF.md)
+  - 適用：外部現實回饋（ERF）校準機制、六維無因次混成動力學、認知病理相態分岔（Phase III / IV）與反脆弱退火驗證。
   
 ---  
 
